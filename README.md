@@ -37,3 +37,5 @@ Por último, adaptar las imágenes de fondo del iPhone y la laptop al ancho de l
 
 ## Origen de los recursos visuales
 Para las imágenes del proyecto combiné dos métodos. En la mayoría de los casos las obtuve directamente del sitio oficial de Apple Latinoamérica haciendo clic derecho, seleccionando "Abrir imagen en una nueva pestaña" y guardándolas en mi computadora. Para el resto de los productos, busqué imágenes similares en internet que coincidieran con el diseño y las descargué para completar mi pagina.
+
+Mi pagina: https://swann-cisne.github.io/Apple--america-latina---landing-page--replica/
