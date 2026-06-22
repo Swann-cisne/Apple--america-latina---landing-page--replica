@@ -12,11 +12,8 @@ Logré armar las partes más importantes de la página de referencia:
 - Todo el pie de página con las notas legales y las columnas de enlaces.
 
 ## Cómo organicé la estructura (HTML Semántico)
-Para que el código fuera limpio y no una acumulación de puros divs repetidos, usé las etiquetas correspondas para darle sentido a la estructura:
-- Todo lo de la navegación lo metí dentro de <header> y <nav>.
-- El contenido fuerte de la página va dentro de <main>.
-- Para separar los productos y las tarjetas de la cuadrícula usé <section> y <article>.
-- El final de la página con los links lo cerré con la etiqueta <footer>.
+
+Para mantener el código limpio y evitar una acumulación de divs repetidos, utilicé las etiquetas correspondientes para darle un sentido semántico a la estructura. Todo lo relacionado con la navegación lo agrupé dentro de <header> y <nav>, mientras que el contenido principal y fuerte de la página quedó dentro de <main>. Para separar de forma ordenada los productos y las tarjetas de la cuadrícula utilicé <section> y <article>, y finalmente cerré el pie de página con los links usando la etiqueta <footer>.
 
 ## Propiedades de CSS utilizadas
 En cuanto a las propiedades de CSS, apliqué un reset general usando box-sizing: border-box para controlar mejor el modelo de caja, asegurando que los márgenes y rellenos no alteraran el tamaño real de los bloques. Para darle el toque característico de la web de Apple a la barra de navegación, utilicé backdrop-filter: blur, que genera ese efecto translúcido y borroso con el fondo al momento de hacer scroll. Finalmente, agregué la propiedad transition tanto en los botones como en los enlaces para que, al pasar el mouse por encima, los cambios de color se noten suaves e interactivos en lugar de saltar de golpe.
