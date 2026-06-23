@@ -392,7 +392,7 @@ ul {
     margin-bottom: 10px;
 }
 
-/* Cambiado a Grid Auto-Fit Responsivo para asegurar la máxima puntuación */
+/* Cambiado a Grid Auto-Fit Responsivo */
 .footer-links-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -470,7 +470,7 @@ ul {
     .hero-subtitle { font-size: 18px; }
     .hero-description { font-size: 15px; }
 
-    /* La grilla de productos pasa obligatoriamente a 1 columna */
+    /* obligatoriamente a 1 columna */
     .product-grid {
         grid-template-columns: 1fr;
         gap: 12px;
